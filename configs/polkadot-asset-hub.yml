@@ -2,6 +2,7 @@ endpoint: wss://polkadot-asset-hub-rpc.polkadot.io
 mock-signature-host: true
 block: ${env.POLKADOT_ASSET_HUB_BLOCK_NUMBER}
 db: ./db.sqlite
+runtime-log-level: 2
 
 import-storage:
   System:
